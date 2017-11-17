@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52DA1323-2BA5-4BED-BC73-4665B91FF088}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		AzureDbFirewallRulesUpdateSample.sln.DotSettings = AzureDbFirewallRulesUpdateSample.sln.DotSettings
+		LICENSE = LICENSE
+		README.md = README.md
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{499674B4-CAAD-4E76-843C-A4A5FE433C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirewallRules.FunctionApp", "src\FirewallRules.FunctionApp\FirewallRules.FunctionApp.csproj", "{A74AE214-756F-4566-B976-EAB2D934B63C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A74AE214-756F-4566-B976-EAB2D934B63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74AE214-756F-4566-B976-EAB2D934B63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74AE214-756F-4566-B976-EAB2D934B63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74AE214-756F-4566-B976-EAB2D934B63C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A74AE214-756F-4566-B976-EAB2D934B63C} = {499674B4-CAAD-4E76-843C-A4A5FE433C4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F0D0120-97C0-469A-886A-A3C27599FDFA}
+	EndGlobalSection
+EndGlobal

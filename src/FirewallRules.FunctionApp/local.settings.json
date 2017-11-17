@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+
+    "Sp.DirectoryId": "dfd2ecd6-38f8-4656-aea3-79dfe81395ad",
+    "Sp.SubscriptionId": "42ef088e-2191-4a91-9942-eb41f0a6e368",
+    "Sp.ApplicationId": "9075953b-3a56-4ef6-9aad-c6e748c28c9c",
+    "Sp.ApplicationKey": "eUq6G97g9Wv!ddMb%z49HTgwUrv*V2fWgd%RKUJ!!vXS",
+
+    "Rg.Name": "sample-resource-group"
+  }
+}
